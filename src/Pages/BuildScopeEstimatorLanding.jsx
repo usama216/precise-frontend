@@ -1217,7 +1217,7 @@ function FAQ() {
 }
 
 // ---- Contact / CTA -------------------------------------------------------
-const API_URL = import.meta.env?.VITE_API_URL || "http://localhost:4000";
+const API_URL = import.meta.env?.VITE_API_URL || "https://precise-backend.vercel.app";
 const MAX_FILE_MB = 10;
  
 function Contact() {
